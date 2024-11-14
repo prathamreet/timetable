@@ -1,0 +1,142 @@
+{
+    "schedule": [
+        {
+            "dailyTime": "6:00 AM - 6:30 AM",
+            "dailySchedule": "poopoo/peepee",
+            "holidayTime": "8:00 AM - 8:30 AM",
+            "holidaySchedule": "poopoo/peepee"
+        },
+        {
+            "dailyTime": "6:30 AM - 7:30 AM",
+            "dailySchedule": "Gym",
+            "holidayTime": "8:30 AM - 9:00 AM",
+            "holidaySchedule": "Breakfast"
+        },
+        {
+            "dailyTime": "7:30 AM - 8:00 AM",
+            "dailySchedule": "Rest",
+            "holidayTime": "9:00 AM - 12:00 PM",
+            "holidaySchedule": "Household"
+        },
+        {
+            "dailyTime": "8:00 AM - 8:30 AM",
+            "dailySchedule": "Bath + Ready",
+            "holidayTime": "12:00 PM - 12:30 PM",
+            "holidaySchedule": "Bath"
+        },
+        {
+            "dailyTime": "8:30 AM - 9:00 AM",
+            "dailySchedule": "Breakfast",
+            "holidayTime": "12:30 PM - 1:30 PM",
+            "holidaySchedule": "Lunch"
+        },
+        {
+            "dailyTime": "9:00 AM - 2:00 PM",
+            "dailySchedule": "College",
+            "holidayTime": "1:30 PM - 2:00 PM",
+            "holidaySchedule": "Leisure"
+        },
+        {
+            "dailyTime": "2:00 PM - 2:45 PM",
+            "dailySchedule": "Study (Lecture)",
+            "holidayTime": "2:00 PM - 2:45 PM",
+            "holidaySchedule": "Study (Lecture)"
+        },
+        {
+            "dailyTime": "2:45 PM - 3:00 PM",
+            "dailySchedule": "Break",
+            "holidayTime": "2:45 PM - 3:00 PM",
+            "holidaySchedule": "Break"
+        },
+        {
+            "dailyTime": "3:00 PM - 3:45 PM",
+            "dailySchedule": "Study (Lecture)",
+            "holidayTime": "3:00 PM - 3:45 PM",
+            "holidaySchedule": "Study (Lecture)"
+        },
+        {
+            "dailyTime": "3:45 PM - 4:00 PM",
+            "dailySchedule": "Break",
+            "holidayTime": "3:45 PM - 4:00 PM",
+            "holidaySchedule": "Break"
+        },
+        {
+            "dailyTime": "4:00 PM - 4:45 PM",
+            "dailySchedule": "Study (Lecture)",
+            "holidayTime": "4:00 PM - 4:45 PM",
+            "holidaySchedule": "Study (Lecture)"
+        },
+        {
+            "dailyTime": "4:45 PM - 5:00 PM",
+            "dailySchedule": "Break",
+            "holidayTime": "4:45 PM - 5:00 PM",
+            "holidaySchedule": "Break"
+        },
+        {
+            "dailyTime": "5:00 PM - 5:45 PM",
+            "dailySchedule": "Snacks/Break",
+            "holidayTime": "5:00 PM - 5:45 PM",
+            "holidaySchedule": "Snacks/Break"
+        },
+        {
+            "dailyTime": "5:45 PM - 6:00 PM",
+            "dailySchedule": "Break",
+            "holidayTime": "5:45 PM - 6:00 PM",
+            "holidaySchedule": "Break"
+        },
+        {
+            "dailyTime": "6:00 PM - 6:45 PM",
+            "dailySchedule": "Study (CP/DS)",
+            "holidayTime": "6:00 PM - 6:45 PM",
+            "holidaySchedule": "Study (CP/DS)"
+        },
+        {
+            "dailyTime": "6:45 PM - 7:00 PM",
+            "dailySchedule": "Break",
+            "holidayTime": "6:45 PM - 7:00 PM",
+            "holidaySchedule": "Break"
+        },
+        {
+            "dailyTime": "7:00 PM - 7:45 PM",
+            "dailySchedule": "Study (CP/DS)",
+            "holidayTime": "7:00 PM - 7:45 PM",
+            "holidaySchedule": "Study (CP/DS)"
+        },
+        {
+            "dailyTime": "7:45 PM - 8:00 PM",
+            "dailySchedule": "Break",
+            "holidayTime": "7:45 PM - 8:00 PM",
+            "holidaySchedule": "Break"
+        },
+        {
+            "dailyTime": "8:00 PM - 8:45 PM",
+            "dailySchedule": "Dinner",
+            "holidayTime": "8:00 PM - 8:45 PM",
+            "holidaySchedule": "Dinner"
+        },
+        {
+            "dailyTime": "8:45 PM - 9:00 PM",
+            "dailySchedule": "Break",
+            "holidayTime": "8:45 PM - 9:00 PM",
+            "holidaySchedule": "Break"
+        },
+        {
+            "dailyTime": "9:00 PM - 9:45 PM",
+            "dailySchedule": "Study (Commit)",
+            "holidayTime": "9:00 PM - 9:45 PM",
+            "holidaySchedule": "Study (Commit)"
+        },
+        {
+            "dailyTime": "9:45 PM - 10:00 PM",
+            "dailySchedule": "Death Bed",
+            "holidayTime": "9:45 PM - 10:00 PM",
+            "holidaySchedule": "Death Bed"
+        },
+        {
+            "dailyTime": "10:00 PM - 6:00 AM",
+            "dailySchedule": "Sleep",
+            "holidayTime": "10:00 PM - 8:00 AM",
+            "holidaySchedule": "Sleep"
+        }
+    ]
+}
