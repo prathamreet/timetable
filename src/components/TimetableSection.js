@@ -76,18 +76,19 @@ function TimetableSection({ scheduleType, currentPeriod, timetable }) {
                     <div
                         className={`
                         text-center font-semibold 
-                        ${isDark ? 'bg-gray-800' : 'bg-white'} shadow-sm
+                        ${isDark ? "bg-gray-800" : "bg-white"} shadow-sm
                         p-3 rounded-lg mb-4
-                        border ${isDark ? 'border-gray-700' : 'border-gray-100'}
-                        ${isDark ? 'text-gray-200' : 'text-gray-700'}   
+                        border ${isDark ? "border-gray-700" : "border-gray-100"}
+                        ${isDark ? "text-gray-200" : "text-gray-700"}   
                         flex items-center justify-center
                         space-x-2
-                        transition-colors duration-200
                     `}
-                    >   
+                    >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className={`h-5 w-5 ${isDark ? 'text-yellow-300' : 'text-yellow-500'}`}
+                            className={`h-5 w-5 ${
+                                isDark ? "text-yellow-300" : "text-yellow-500"
+                            }`}
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -118,18 +119,19 @@ function TimetableSection({ scheduleType, currentPeriod, timetable }) {
                     <div
                         className={`
                         text-center font-semibold 
-                        ${isDark ? 'bg-gray-800' : 'bg-white'} shadow-sm
+                        ${isDark ? "bg-gray-800" : "bg-white"} shadow-sm
                         p-3 rounded-lg mb-4
-                        border ${isDark ? 'border-gray-700' : 'border-gray-100'}
-                        ${isDark ? 'text-gray-200' : 'text-gray-700'}
+                        border ${isDark ? "border-gray-700" : "border-gray-100"}
+                        ${isDark ? "text-gray-200" : "text-gray-700"}
                         flex items-center justify-center
                         space-x-2
-                        transition-colors duration-200
                     `}
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className={`h-5 w-5 ${isDark ? 'text-blue-400' : 'text-blue-500'}`}
+                            className={`h-5 w-5 ${
+                                isDark ? "text-blue-400" : "text-blue-500"
+                            }`}
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
