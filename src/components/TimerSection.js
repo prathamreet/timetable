@@ -3,8 +3,6 @@ import { useEffect, useState } from "react";
 function TimerSection({
     currentTime,
     currentPeriod,
-    scheduleType,
-    setScheduleType,
 }) {
     const [remainingTime, setRemainingTime] = useState("--:--:--");
 
@@ -50,43 +48,22 @@ function TimerSection({
     }, [currentPeriod]);
 
     return (
-        <div className="flex-1 bg-gray-50 p-5 flex flex-col items-center justify-center">
-            <div className="text-4xl font-bold text-gray-800 mb-4">
-                {currentTime.toLocaleTimeString("en-US", {
-                    hour12: true,
-                    hour: "numeric",
-                    minute: "2-digit",
-                    second: "2-digit",
-                })}
+        <div className="flex-1 bg-transparent p-5 flex flex-col items-center justify-center ">
+            <div className="flex container flex-row mx-auto gap-5 justify-center">
+                <p className="text-3xl font-bold dark:text-white">Clock</p>
+                <div className="text-3xl font-medium text-gray-800 dark:text-gray-200 mb-4">
+                    {currentTime.toLocaleTimeString("en-US", {
+                        hour12: true,
+                        hour: "numeric",
+                        minute: "2-digit",
+                        second: "2-digit",
+                    })}
+                </div>
             </div>
-            <div className="text-xl text-blue-600 mb-4">
+            <div className="text-xl text-blue-600 dark:text-blue-400 mb-4">
                 Current: {currentPeriod ? currentPeriod.schedule : "None"}
             </div>
-            <div className="text-3xl text-red-500 mb-4">{remainingTime}</div>
-            <div className="space-x-4">
-                <label className="inline-flex items-center">
-                    <input
-                        type="radio"
-                        name="schedule"
-                        value="daily"
-                        checked={scheduleType === "daily"}
-                        onChange={(e) => setScheduleType(e.target.value)}
-                        className="form-radio text-blue-600"
-                    />
-                    <span className="ml-2">Daily</span>
-                </label>
-                <label className="inline-flex items-center">
-                    <input
-                        type="radio"
-                        name="schedule"
-                        value="holiday"
-                        checked={scheduleType === "holiday"}
-                        onChange={(e) => setScheduleType(e.target.value)}
-                        className="form-radio text-blue-600"
-                    />
-                    <span className="ml-2">Holiday</span>
-                </label>
-            </div>
+            <div className="text-3xl text-red-500 dark:text-red-400 mb-4">{remainingTime}</div>
         </div>
     );
 }
