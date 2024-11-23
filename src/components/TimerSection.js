@@ -52,7 +52,7 @@ function TimerSection({
     return (
         <div className="flex-1 bg-transparent p-8 flex flex-col items-center justify-center gap-8 transition-colors duration-200">
             {/* Clock Card */}
-            <div className={`w-full max-w-md p-6 rounded-xl shadow-lg ${isDark ? 'bg-gray-800' : 'bg-white'} transition-colors duration-200`}>
+            <div className={`w-full max-w-md p-6 rounded-xl ${isDark ? 'bg-gray-800' : 'bg-white'} transition-colors duration-200 shadow-lg`}>
                 <div className="flex items-center gap-3 mb-3">
                     <svg className="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />

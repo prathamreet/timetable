@@ -17,10 +17,10 @@ function TimetableSection({ scheduleType, currentPeriod, timetable }) {
                     relative overflow-hidden
                     p-3 mb-2 rounded-lg
                     transition-all duration-300 ease-in-out
-                    hover:shadow-md flex gap-3
+                    flex gap-3
                     ${
                         isActive
-                            ? "bg-gradient-to-r from-green-500 to-green-600 text-white transform scale-[1.02] shadow-lg"
+                            ? "bg-gradient-to-r from-green-500 to-green-600 text-white transform scale-[1.02]"
                             : "bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700"
                     }
                 `}

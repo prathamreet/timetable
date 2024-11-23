@@ -19,7 +19,7 @@ function App() {
                     scheduleType={scheduleType}
                     setScheduleType={setScheduleType}
                 />
-                <div className="flex shadow rounded-lg transition-colors duration-200">
+                <div className="flex rounded-lg transition-colors duration-200">
                     <TimerSection
                         currentTime={currentTime}
                         currentPeriod={currentPeriod}
